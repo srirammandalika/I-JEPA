@@ -2,7 +2,8 @@
 
 A simple Image-Joint Embedding Predictive Architecture (I-JEPA) - Modified implementation on CIFAR - 10 dataset.
 
-
+### Data
+Please use this exact dataset structure as given in this link - [https://www.kaggle.com/datasets/ayush1220/cifar10]
 ### Simple Testing
 
 ```
