@@ -11,7 +11,7 @@ python -m src.inference.visualize_masks
 ```
 
 ### Simple Training
-Please not that you have to change the 'train_root' and 'val_root' directories. You can also adjust the batch size, epochs and max_per_class (max number samples used per class) as per your GPU setup. The code supports with Apple M1/2/3/4 - MPS and CUDA toolkit.
+Please note that you have to change the 'train_root' and 'val_root' directories. You can also adjust the batch size, epochs, and max_per_class (the maximum number of samples used per class) according to your GPU setup. The code supports Apple M1/2/3/4 - MPS and CUDA toolkit.
 
 ```
 python -m src.training.train_student \
