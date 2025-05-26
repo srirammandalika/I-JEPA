@@ -15,8 +15,8 @@ Please note that you have to change the 'train_root' and 'val_root' directories.
 
 ```
 python -m src.training.train_student \
-  --train_root "/Users/srirammandalika/Downloads/Minor/CIFAR-10 data/cifar10/train/" \
-  --val_root   "/Users/srirammandalika/Downloads/Minor/CIFAR-10 data/cifar10/test/" \
+  --train_root "path/to//CIFAR-10 data/cifar10/train/" \
+  --val_root   "path/to/CIFAR-10 data/cifar10/test/" \
   --batch_size 64 \
   --epochs     30 \
   --max_per_class 1000 \
